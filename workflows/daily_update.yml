@@ -3,7 +3,7 @@ name: Daily Search Update
 on:
   schedule:
     # 매일 오후 2시 (UTC+9 기준으로는 오후 2시는 UTC 05:00)
-    - cron: '0 5 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch:  # 수동 실행 옵션
 
 jobs:
